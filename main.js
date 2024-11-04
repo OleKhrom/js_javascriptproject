@@ -1,0 +1,27 @@
+let greeting = "hello";
+let school = "owu";
+let domain = "com";
+let country = "ua";
+let num1 = 1;
+let num2 = 10;
+let num3 = -999;
+let num4 = 123;
+let num5 = 3.14;
+let num6 = 2.7;
+let num7 = 16;
+let isTrue = true;
+let isFalse = false;
+
+console.log(greeting);
+console.log(school);
+console.log(domain);
+console.log(country);
+console.log(num1);
+console.log(num2);
+console.log(num3);
+console.log(num4);
+console.log(num5);
+console.log(num6);
+console.log(num7);
+console.log(isTrue);
+console.log(isFalse);
