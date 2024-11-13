@@ -4,4 +4,4 @@ function square(a, b) {
     return result;
 }
 
-square(10, 20)
+square(10, 20);

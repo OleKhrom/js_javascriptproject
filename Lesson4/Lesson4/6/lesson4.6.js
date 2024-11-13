@@ -5,7 +5,7 @@ function book(text) {
     <li>${text}</li>
     <li>${text}</li>
     </ul>
-`)
+`);
 }
 
-book(`hello world`)
+book(`hello world`);
