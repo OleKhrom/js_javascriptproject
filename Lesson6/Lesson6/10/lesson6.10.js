@@ -1,5 +1,5 @@
-const suits = ['spade', 'diamond','heart', 'club'];
-const values = ['6', '7', '8', '9', '10', 'ace','jack','queen','king'];
+const suits = ['spade', 'diamond', 'heart', 'club'];
+const values = ['6', '7', '8', '9', '10', 'ace', 'jack', 'queen', 'king'];
 
 const cards = [];
 for (const suit of suits) {
@@ -7,8 +7,7 @@ for (const suit of suits) {
         const card = {cardSuit: suit, value: value};
         if (suit === 'heart' || suit === 'diamond') {
             card.color = 'red';
-        }
-        else{
+        } else {
             card.color = 'black';
         }
         cards.push(card);
@@ -22,24 +21,24 @@ const result = cards.reduce((accum, card) => {
             accum.spades.push(card);
             break;
 
-            case 'diamond':
-                accum.diamonds.push(card);
-                break;
+        case 'diamond':
+            accum.diamonds.push(card);
+            break;
 
-                case 'club':
-                    accum.clubs.push(card);
-                    break;
+        case 'club':
+            accum.clubs.push(card);
+            break;
 
-                    case 'heart':
-                        accum.hearts.push(card);
-                        break;
+        case 'heart':
+            accum.hearts.push(card);
+            break;
     }
     return accum;
 }, {
-    spades:[ ],
-    diamonds:[ ],
-    hearts:[ ],
-    clubs:[ ]
+    spades: [],
+    diamonds: [],
+    hearts: [],
+    clubs: []
 });
 
 console.log(result);
