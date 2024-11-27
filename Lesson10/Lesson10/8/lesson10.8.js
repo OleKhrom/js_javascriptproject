@@ -1,5 +1,5 @@
-const tableGeneratorFrom = document.forms['tableGenerator'];
-tableGeneratorFrom.onsubmit = function(e) {
+const tableGeneratorFrom = document.forms['tableGeneratorFrom'];
+tableGeneratorFrom.onsubmit = function (e) {
     e.preventDefault();
     const linesValue = +tableGeneratorFrom.lines.value;
     const cellsValue = +tableGeneratorFrom.cells.value;

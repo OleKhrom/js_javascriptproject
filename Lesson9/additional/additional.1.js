@@ -34,6 +34,7 @@ for (let course of coursesArray) {
     hourDuration.innerText = course.hourDuration;
     div.appendChild(hourDuration);
 
+
     const modulesList = document.createElement('ul');
     for (let modules of course.modules) {
         const li = document.createElement('li');
